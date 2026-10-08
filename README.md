@@ -188,3 +188,29 @@ Revenue-at-Risk Analysis
 Business Insights
       ↓
 Retention Recommendations
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you have suggestions or improvements, feel free to fork the repository and create a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+### Arijit Bhattacharyya
+
+**M.Sc. Mathematics & Computing**  
+**IIT (ISM) Dhanbad**
+
+📧 Connect with me on LinkedIn! **LinkedIn:** [Arijit Bhattacharyya](https://www.linkedin.com/in/arijit-bhattacharyya/)
+
+---
+
+⭐ If you found this project useful, don't forget to Star this repository!
