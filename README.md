@@ -136,7 +136,7 @@ The project combines **Machine Learning, SQL, and Business Analytics** to move f
 
 The project answers three important questions:
 
- **1. Who is likely to churn?**
+### 1. Who is likely to churn?
 
 Machine Learning models are trained to predict whether a customer is likely to leave.
 
