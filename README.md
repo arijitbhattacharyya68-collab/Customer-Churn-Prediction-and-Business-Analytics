@@ -1,7 +1,131 @@
 # 📊 Customer Churn Prediction & Business Analytics
 
 ### An End-to-End Machine Learning and Business Analytics Project for Customer Churn Prediction, Risk Identification, Revenue Analysis, and Retention Strategy
+# 📊 Customer Churn Prediction & Business Analytics
 
+An end-to-end **Machine Learning and Business Analytics project** that predicts customer churn, identifies high-risk customers, analyzes revenue impact, and derives actionable business insights using **Python, Machine Learning, SQL, and Power BI**.
+
+---
+
+## 🚀 Project Overview
+
+Customer churn is a major challenge for subscription-based businesses, as losing customers directly impacts recurring revenue and long-term growth.
+
+This project develops an end-to-end **Customer Churn Prediction and Business Analytics solution** using the **Telco Customer Churn dataset**.
+
+The project combines Machine Learning and SQL-based business analysis to:
+
+- Predict customers who are likely to churn
+- Identify high-risk customers
+- Understand major churn patterns
+- Analyze churn across customer segments
+- Quantify monthly revenue associated with churn
+- Identify potential revenue at risk
+- Generate actionable business recommendations
+
+The objective is to move beyond simply predicting churn and understand **how churn affects the business and where retention efforts should be focused**.
+
+---
+
+## ✨ Features
+
+- 📊 Exploratory Data Analysis
+- 🧹 Data Cleaning & Preprocessing
+- 🔄 Feature Engineering
+- ⚖️ Class Imbalance Handling using SMOTE
+- 🤖 Multiple Machine Learning Models
+- 🔁 10-Fold Cross-Validation
+- 🌲 Random Forest Hyperparameter Tuning
+- 📈 Churn Prediction
+- 🎯 High-Risk Customer Identification
+- 🗄️ SQL-Based Business Analysis
+- 💰 Revenue-at-Risk Analysis
+- 💡 Business Insights & Recommendations
+- 📊 Power BI Dashboard *(Coming Soon)*
+
+---
+
+## 🛠️ Tech Stack
+
+### Programming & Data Analysis
+- Python
+- Pandas
+- NumPy
+
+### Data Visualization
+- Matplotlib
+- Seaborn
+
+### Machine Learning
+- Scikit-learn
+- Imbalanced-learn
+- XGBoost
+
+### Database & Analytics
+- SQL
+- SQLite
+- Power BI
+
+### Development Tools
+- Jupyter Notebook
+- Git
+- GitHub
+
+---
+
+## 📊 Dataset
+
+The project uses the **Telco Customer Churn dataset**, containing information about **7,043 customers**.
+
+The dataset includes customer information such as:
+
+- Customer demographics
+- Tenure
+- Contract type
+- Monthly charges
+- Total charges
+- Internet services
+- Phone services
+- Payment methods
+- Churn status
+
+### Target Variable
+
+`Churn`
+
+- `0` → Customer did not churn
+- `1` → Customer churned
+
+---
+
+## 🧠 Machine Learning Workflow
+
+```text
+Data Collection
+      ↓
+Data Cleaning
+      ↓
+Exploratory Data Analysis
+      ↓
+Feature Preprocessing
+      ↓
+Train-Test Split
+      ↓
+SMOTE
+      ↓
+Model Training
+      ↓
+10-Fold Cross-Validation
+      ↓
+Model Comparison
+      ↓
+Random Forest Hyperparameter Tuning
+      ↓
+Model Evaluation
+      ↓
+Churn Prediction
+      ↓
+High-Risk Customer Identification
 ---
 
 ## 🚀 Project Overview
