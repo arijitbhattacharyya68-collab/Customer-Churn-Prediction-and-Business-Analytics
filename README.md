@@ -1,6 +1,4 @@
-# 📊 Customer Churn Prediction & Business Analytics
 
-### An End-to-End Machine Learning and Business Analytics Project for Customer Churn Prediction, Risk Identification, Revenue Analysis, and Retention Strategy
 # 📊 Customer Churn Prediction & Business Analytics
 
 An end-to-end **Machine Learning and Business Analytics project** that predicts customer churn, identifies high-risk customers, analyzes revenue impact, and derives actionable business insights using **Python, Machine Learning, SQL, and Power BI**.
