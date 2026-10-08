@@ -1,89 +1,98 @@
-# Customer Churn Prediction and Business Analytics
+# Customer Churn Prediction & Business Analytics
 
-An end-to-end customer churn analytics project combining Machine Learning and SQL-based business analysis to identify customers at risk of churn and quantify the potential revenue impact.
+### Turning customer data into actionable retention insights using Machine Learning and SQL
+
+An end-to-end **Customer Churn Analytics** project that combines Machine Learning, statistical analysis, and SQL-based business intelligence to identify customers at risk of churn and quantify the potential financial impact on the business.
+
+The project goes beyond simply predicting churn — it focuses on answering the business questions behind churn:
+
+> **Who is likely to churn? Why are customers leaving? Which segments are most vulnerable? And how much recurring revenue is at risk?**
+
+---
 
 ## Project Overview
 
-Customer churn is a major business challenge because losing existing customers directly affects recurring revenue and long-term customer value.
+Customer churn is one of the most important challenges faced by subscription-based businesses. Identifying customers who are likely to leave allows organizations to intervene proactively through targeted retention strategies.
 
-This project uses the Telco Customer Churn dataset to build a machine learning pipeline for predicting customer churn and a SQL-based business analysis framework for identifying important churn patterns, high-risk customer segments, and revenue at risk.
-
-The project combines:
+In this project, the **Telco Customer Churn dataset** is analyzed through an end-to-end pipeline covering:
 
 - Exploratory Data Analysis
-- Data preprocessing
+- Data preprocessing and feature transformation
 - Class imbalance handling using SMOTE
-- Machine Learning classification
-- Random Forest hyperparameter tuning
-- Model evaluation
+- Multiple Machine Learning classification models
+- 10-fold cross-validation
+- Random Forest hyperparameter optimization
+- Customer-level churn prediction
 - SQL-based business analysis
-- Customer risk and revenue analysis
-- Power BI dashboard — **Coming Soon**
+- Revenue-at-risk estimation
+- High-risk customer identification
+
+A **Power BI dashboard is planned as the next phase of the project.**
 
 ---
 
-## Objectives
+## Business Problem
 
-The main objectives of this project are:
+The objective is to build a data-driven framework that helps a business:
 
-1. Analyze customer characteristics and identify patterns associated with churn.
-2. Build machine learning models to predict whether a customer is likely to churn.
-3. Address class imbalance using SMOTE.
-4. Compare multiple classification models using cross-validation.
-5. Optimize the Random Forest model using hyperparameter tuning.
-6. Identify high-risk customers using the trained model.
-7. Quantify the potential monthly revenue associated with high-risk customers.
-8. Derive actionable business insights that can support customer retention strategies.
+- Predict customers who are likely to churn.
+- Understand the major characteristics associated with churn.
+- Identify high-risk customer segments.
+- Quantify the recurring revenue associated with churn.
+- Prioritize customers for proactive retention campaigns.
 
----
-
-## Dataset
-
-The project uses the **Telco Customer Churn dataset**, containing customer-level information such as:
-
-- Demographics
-- Customer tenure
-- Contract type
-- Internet service
-- Payment method
-- Monthly charges
-- Total charges
-- Services subscribed
-- Churn status
-
-The dataset contains **7,043 customers**.
+The ultimate goal is to transform a predictive model into a **business decision-support system**.
 
 ---
 
-## Project Workflow
+## Project Architecture
 
 ```text
-Data Loading
-     ↓
-Data Understanding
-     ↓
-Data Cleaning
-     ↓
-Exploratory Data Analysis
-     ↓
-Feature Encoding
-     ↓
-Train-Test Split
-     ↓
-SMOTE Class Balancing
-     ↓
-Model Training
-     ↓
-10-Fold Cross-Validation
-     ↓
-Random Forest Hyperparameter Tuning
-     ↓
-Model Evaluation
-     ↓
-Churn Prediction
-     ↓
-SQL Business Analysis
-     ↓
-Revenue-at-Risk Analysis
-     ↓
-Power BI Dashboard (Coming Soon)
+                    Customer Churn Dataset
+                              │
+                              ▼
+                   Data Understanding
+                              │
+                              ▼
+                    Data Preprocessing
+                              │
+                              ▼
+                 Exploratory Data Analysis
+                              │
+                              ▼
+                    Feature Engineering
+                              │
+                              ▼
+                    Train-Test Split
+                              │
+                              ▼
+                         SMOTE
+                              │
+                              ▼
+                    Model Development
+                              │
+                ┌─────────────┼─────────────┐
+                ▼             ▼             ▼
+          Decision Tree   Random Forest   XGBoost
+                │             │             │
+                └─────────────┼─────────────┘
+                              ▼
+                   Cross-Validation
+                              │
+                              ▼
+              Random Forest Optimization
+                              │
+                              ▼
+                    Churn Prediction
+                              │
+                ┌─────────────┴─────────────┐
+                ▼                           ▼
+        SQL Business Analysis       Revenue-at-Risk
+                │                           │
+                └─────────────┬─────────────┘
+                              ▼
+                    Business Insights
+                              │
+                              ▼
+                   Power BI Dashboard
+                       (Planned)
