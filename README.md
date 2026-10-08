@@ -1,132 +1,68 @@
-# Python Machine Learning SQL Power BI
-
 # 📊 Customer Churn Prediction & Business Analytics
 
-An end-to-end **Customer Churn Prediction and Business Analytics** project built using Python, Machine Learning, SQL, and data visualization techniques. The project combines predictive modeling with business analysis to identify customers at risk of churn, understand churn patterns, and estimate the potential revenue impact of customer attrition.
+### An End-to-End Machine Learning and Business Analytics Project for Customer Churn Prediction, Risk Identification, Revenue Analysis, and Retention Strategy
 
 ---
 
 ## 🚀 Project Overview
 
-Customer churn is a critical business problem for subscription-based companies. Identifying customers who are likely to leave allows businesses to take proactive retention measures before revenue is lost.
+Customer churn is one of the most important business challenges for subscription-based companies. When customers leave, businesses lose not only customers but also recurring revenue.
 
-This project develops a complete churn analytics pipeline using the **Telco Customer Churn dataset**, covering data preprocessing, exploratory data analysis, class imbalance handling, machine learning model development, hyperparameter tuning, and SQL-based business analysis.
+This project develops an **end-to-end Customer Churn Prediction and Business Analytics solution** using the Telco Customer Churn dataset.
 
-The project goes beyond prediction by translating machine learning results into **actionable business insights** such as high-risk customer identification and revenue-at-risk analysis.
+The project combines **Machine Learning, SQL, and Business Analytics** to move from simply predicting churn to understanding its **business impact**.
 
----
+The project answers three important questions:
 
-## ✨ Features
+### 1. Who is likely to churn?
 
-🔍 Exploratory Data Analysis of customer behavior
+Machine Learning models are trained to predict whether a customer is likely to leave.
 
-🧹 Data cleaning and preprocessing
+### 2. Which customer segments are most vulnerable?
 
-⚖️ Class imbalance handling using SMOTE
+SQL and Exploratory Data Analysis are used to identify churn patterns across contract type, tenure, and monthly charges.
 
-🤖 Multiple Machine Learning classification models
+### 3. What is the financial impact of churn?
 
-🌲 Random Forest hyperparameter optimization
+The analysis calculates monthly revenue associated with churned customers and identifies potential revenue at risk from high-risk customers.
 
-📊 10-Fold Cross-Validation
-
-📈 Model evaluation using Accuracy, Precision, Recall, F1-Score and Confusion Matrix
-
-🎯 Customer churn prediction
-
-🧑‍💼 High-risk customer identification
-
-💰 Revenue-at-risk analysis
-
-🗄️ SQL-based business analytics
-
-📊 Power BI Dashboard — Coming Soon
+The final objective is to provide **data-driven customer retention strategies** that businesses can use to reduce churn and protect recurring revenue.
 
 ---
 
-## 🛠️ Tech Stack
+# 🎯 Business Problem
 
-### Programming Language
+A company may know that its customers are leaving, but knowing the churn rate alone is not enough.
 
-Python
+A practical churn analytics system should help a business understand:
 
-### Libraries
+- Which customers are likely to churn?
+- Which customer segments have the highest churn?
+- Are new customers more likely to leave?
+- Does contract type affect churn?
+- Does monthly billing affect churn?
+- How much monthly revenue is associated with churned customers?
+- Which customers should the retention team prioritize?
+- How much potential revenue is at risk?
+- What actions can the business take to reduce churn?
 
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-Scikit-learn  
-Imbalanced-learn  
-XGBoost
-
-### Database & Analytics
-
-SQL  
-SQLite
-
-### Machine Learning
-
-Decision Tree  
-Random Forest  
-XGBoost  
-SMOTE  
-RandomizedSearchCV  
-10-Fold Cross-Validation
-
-### Business Intelligence
-
-Power BI *(Coming Soon)*
-
----
-
-## 📊 Dataset
-
-### Telco Customer Churn Dataset
-
-The project uses the **Telco Customer Churn dataset**, containing customer-level information related to demographics, services, contracts, tenure, billing, and churn behavior.
-
-### Key Features
-
-- Customer demographics
-- Tenure
-- Contract type
-- Internet service
-- Payment method
-- Monthly charges
-- Total charges
-- Subscribed services
-- Churn status
-
-📌 **Total Customers:** 7,043
-
----
-
-## 🧠 Machine Learning Workflow
+This project addresses these questions by combining:
 
 ```text
-Data Collection
-      ↓
-Data Cleaning
+Customer Data
       ↓
 Exploratory Data Analysis
       ↓
-Feature Preprocessing
-      ↓
-Train-Test Split
-      ↓
-SMOTE
-      ↓
-Model Training
-      ↓
-10-Fold Cross-Validation
-      ↓
-Model Comparison
-      ↓
-Random Forest Hyperparameter Tuning
-      ↓
-Model Evaluation
+Machine Learning
       ↓
 Churn Prediction
       ↓
 High-Risk Customer Identification
+      ↓
+SQL Business Analysis
+      ↓
+Revenue-at-Risk Analysis
+      ↓
+Business Insights
+      ↓
+Retention Recommendations
