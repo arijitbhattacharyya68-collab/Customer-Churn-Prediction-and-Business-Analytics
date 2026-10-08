@@ -1,98 +1,132 @@
-# Customer Churn Prediction & Business Analytics
+# Python Machine Learning SQL Power BI
 
-### Turning customer data into actionable retention insights using Machine Learning and SQL
+# 📊 Customer Churn Prediction & Business Analytics
 
-An end-to-end **Customer Churn Analytics** project that combines Machine Learning, statistical analysis, and SQL-based business intelligence to identify customers at risk of churn and quantify the potential financial impact on the business.
-
-The project goes beyond simply predicting churn — it focuses on answering the business questions behind churn:
-
-> **Who is likely to churn? Why are customers leaving? Which segments are most vulnerable? And how much recurring revenue is at risk?**
+An end-to-end **Customer Churn Prediction and Business Analytics** project built using Python, Machine Learning, SQL, and data visualization techniques. The project combines predictive modeling with business analysis to identify customers at risk of churn, understand churn patterns, and estimate the potential revenue impact of customer attrition.
 
 ---
 
-## Project Overview
+## 🚀 Project Overview
 
-Customer churn is one of the most important challenges faced by subscription-based businesses. Identifying customers who are likely to leave allows organizations to intervene proactively through targeted retention strategies.
+Customer churn is a critical business problem for subscription-based companies. Identifying customers who are likely to leave allows businesses to take proactive retention measures before revenue is lost.
 
-In this project, the **Telco Customer Churn dataset** is analyzed through an end-to-end pipeline covering:
+This project develops a complete churn analytics pipeline using the **Telco Customer Churn dataset**, covering data preprocessing, exploratory data analysis, class imbalance handling, machine learning model development, hyperparameter tuning, and SQL-based business analysis.
 
-- Exploratory Data Analysis
-- Data preprocessing and feature transformation
-- Class imbalance handling using SMOTE
-- Multiple Machine Learning classification models
-- 10-fold cross-validation
-- Random Forest hyperparameter optimization
-- Customer-level churn prediction
-- SQL-based business analysis
-- Revenue-at-risk estimation
-- High-risk customer identification
-
-A **Power BI dashboard is planned as the next phase of the project.**
+The project goes beyond prediction by translating machine learning results into **actionable business insights** such as high-risk customer identification and revenue-at-risk analysis.
 
 ---
 
-## Business Problem
+## ✨ Features
 
-The objective is to build a data-driven framework that helps a business:
+🔍 Exploratory Data Analysis of customer behavior
 
-- Predict customers who are likely to churn.
-- Understand the major characteristics associated with churn.
-- Identify high-risk customer segments.
-- Quantify the recurring revenue associated with churn.
-- Prioritize customers for proactive retention campaigns.
+🧹 Data cleaning and preprocessing
 
-The ultimate goal is to transform a predictive model into a **business decision-support system**.
+⚖️ Class imbalance handling using SMOTE
+
+🤖 Multiple Machine Learning classification models
+
+🌲 Random Forest hyperparameter optimization
+
+📊 10-Fold Cross-Validation
+
+📈 Model evaluation using Accuracy, Precision, Recall, F1-Score and Confusion Matrix
+
+🎯 Customer churn prediction
+
+🧑‍💼 High-risk customer identification
+
+💰 Revenue-at-risk analysis
+
+🗄️ SQL-based business analytics
+
+📊 Power BI Dashboard — Coming Soon
 
 ---
 
-## Project Architecture
+## 🛠️ Tech Stack
+
+### Programming Language
+
+Python
+
+### Libraries
+
+Pandas  
+NumPy  
+Matplotlib  
+Seaborn  
+Scikit-learn  
+Imbalanced-learn  
+XGBoost
+
+### Database & Analytics
+
+SQL  
+SQLite
+
+### Machine Learning
+
+Decision Tree  
+Random Forest  
+XGBoost  
+SMOTE  
+RandomizedSearchCV  
+10-Fold Cross-Validation
+
+### Business Intelligence
+
+Power BI *(Coming Soon)*
+
+---
+
+## 📊 Dataset
+
+### Telco Customer Churn Dataset
+
+The project uses the **Telco Customer Churn dataset**, containing customer-level information related to demographics, services, contracts, tenure, billing, and churn behavior.
+
+### Key Features
+
+- Customer demographics
+- Tenure
+- Contract type
+- Internet service
+- Payment method
+- Monthly charges
+- Total charges
+- Subscribed services
+- Churn status
+
+📌 **Total Customers:** 7,043
+
+---
+
+## 🧠 Machine Learning Workflow
 
 ```text
-                    Customer Churn Dataset
-                              │
-                              ▼
-                   Data Understanding
-                              │
-                              ▼
-                    Data Preprocessing
-                              │
-                              ▼
-                 Exploratory Data Analysis
-                              │
-                              ▼
-                    Feature Engineering
-                              │
-                              ▼
-                    Train-Test Split
-                              │
-                              ▼
-                         SMOTE
-                              │
-                              ▼
-                    Model Development
-                              │
-                ┌─────────────┼─────────────┐
-                ▼             ▼             ▼
-          Decision Tree   Random Forest   XGBoost
-                │             │             │
-                └─────────────┼─────────────┘
-                              ▼
-                   Cross-Validation
-                              │
-                              ▼
-              Random Forest Optimization
-                              │
-                              ▼
-                    Churn Prediction
-                              │
-                ┌─────────────┴─────────────┐
-                ▼                           ▼
-        SQL Business Analysis       Revenue-at-Risk
-                │                           │
-                └─────────────┬─────────────┘
-                              ▼
-                    Business Insights
-                              │
-                              ▼
-                   Power BI Dashboard
-                       (Planned)
+Data Collection
+      ↓
+Data Cleaning
+      ↓
+Exploratory Data Analysis
+      ↓
+Feature Preprocessing
+      ↓
+Train-Test Split
+      ↓
+SMOTE
+      ↓
+Model Training
+      ↓
+10-Fold Cross-Validation
+      ↓
+Model Comparison
+      ↓
+Random Forest Hyperparameter Tuning
+      ↓
+Model Evaluation
+      ↓
+Churn Prediction
+      ↓
+High-Risk Customer Identification
